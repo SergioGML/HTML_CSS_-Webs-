@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styless.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <title>Portafolio - Sergio García-Manzanares</title>
+</head>
+
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra Lateral (info del usuario) -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!-- Información general de usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/Sergio.jpeg" class="user-info__image" alt="Foto de Sergio Garcia" />
+                    </div>
+
+                    <h2 class="user-info__name">Sergio <br> Garcia-Manzanares</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+                </div>
+
+                <!-- Menú navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li> -->
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- Links Redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="mailto:sergiogarciamanzanares@gmail.com" class="social__link">
+                                <i class="fa-solid fa-envelope  fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/SergioGML" class="social__link">
+                                <i class="fa-brands fa-github fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/sergio-garcia-manzanares/" class="social__link">
+                                <i class="fa-brands fa-linkedin fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Botón del curriculum -->
+                <div class="user-info__buttons">
+                    <a href="assets/files/CV_Sergio_Garcia.pdf" class="user-info__btn" download>
+                        <i class="fa-solid fa-download fa-bounce" style="--fa-animation-duration: 2s;"></i>
+                        Descargar CV
+                    </a>
+                </div>
+
+                <!-- Pie de página -->
+                <footer class="user-info__footer"> &copy; 2024 Sergio Garcia-Manzanares</footer>
+
+            </section>
+
+        </aside>
+
+        <!-- Contenido Principal -->
+
+        <main class="layout__content">
+
+            <section class="content__page content__resume">
+
+                <!-- ESTE CONTENIDO CAMBIA EN CADA WEB -->
+
+                <header class="resume__header">
+                    <h2 class="resume__title">Curriculum</h2>
+                </header>
+
+                <div class="resume__container">
+
+                    <section class="resume__left">
+
+                        <header class="resume__subheader">
+                            <h2 class="resume_subtitle">Formación</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline_school">ILERNA</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Desarrollo de <span class="subtitle__color">Aplicaciones
+                                            Web</span></h3>
+                                    <p class="timeline__text">He adquirido sólidos
+                                        conocimientos en diversas tecnologías como <span class="title__text">JavaScript,
+                                            Java, CSS, HTML, C#, PHP
+                                            y SQL,</span> entre otras gracias a mi formación. <br>Esto me permite poder
+                                        desarrollar webs eficientes y robustas, aplicando las mejores prácticas de
+                                        programación.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2021</h4>
+                                    <span class="timeline_school">BIGSEO Academy</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Máster en <span class="subtitle__color">SEO</span></h3>
+                                    <p class="timeline__text">Completé un máster en SEO impartido por Romuald Fons,
+                                        donde aprendí a mejorar el crecimiento orgánico de canales, diseñar estrategias
+                                        e interpretar las analíticas para
+                                        mejorar las métricas de mis clientes.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2016</h4>
+                                    <span class="timeline_school">Universidad Francisco de Vitoria</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Comunicación <span
+                                            class="subtitle__color">Audiovisual</span></h3>
+                                    <p class="timeline__text">Gracias a mi formación adquirí habilidades en edición de
+                                        video, creación de
+                                        motion graphics o edición fotográfica, entre otras materias, que me han
+                                        permitido desarrollar proyectos creativos y profesionales en el ámbito
+                                        audiovisual.</p>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume_subtitle">Experiencia</h2>
+                        </header>
+
+                        <div class="resume__timelines">
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2024</h4>
+                                    <span class="timeline_school">Restless Visuals</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Experto en <span class="subtitle__color">SEO
+                                            YouTube</span></h3>
+                                    <p class="timeline__text">Como especialista en SEO, he gestionado exitosamente el
+                                        crecimiento orgánico de diversos clientes, incluyendo <a
+                                            href="https://www.youtube.com/@PlanBTC">Plan
+                                            BTC</a>, <a href="https://www.youtube.com/@burpee_vet">Burpee_vet</a> o <a
+                                            href="https://www.youtube.com/@LaCocinaDelPirata">La Cocina del Pirata</a>
+                                        entre otros. Apliqué estrategias
+                                        personalizadas para mejorar su visibilidad en línea y optimizar el rendimiento
+                                        de sus canales.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2016 - 2024</h4>
+                                    <span class="timeline_school">BQ Educación</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Editor de vídeo y <span class="subtitle__color">Motion
+                                            Graphics</span></h3>
+                                    <p class="timeline__text">En mi rol como editor de video y motion graphics, utilicé
+                                        herramientas como Adobe Premiere, Photoshop, Illustrator y After Effects para
+                                        crear resultados visuales impactantes y creativos.</p>
+                                </div>
+
+                            </article>
+
+                            <article class="timeline__item">
+
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2013 - 2016</h4>
+                                    <span class="timeline_school">AtresMedia, UFV, RTVE</span>
+                                </header>
+
+                                <div class="timeline__divider"></div>
+
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Realizador <span
+                                            class="subtitle__color">Audiovisual</span></h3>
+                                    <p class="timeline__text">Como realizador audiovisual, colaboré en diversos
+                                        informativos y programas, desempeñando funciones como ayudante de realización.
+                                        <br>Mi labor incluyó la coordinación de equipos y el
+                                        apoyo en el desarrollo de contenido, contribuyendo a la creación de piezas
+                                        de alta calidad y en cumplimiento con los plazos establecidos.</p>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </section>
+
+                    <section class="resume__right">
+
+                        <header class="resume__subheader">
+                            <h2 class="resume_subtitle">Habilidades de <span class="subtitle__color">Diseño</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Diseño Web</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p1"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Edición de Vídeo</h4>
+                                <span class="skills__number">99%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p2"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Motion Graphics</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p3"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">SEO YouTube</h4>
+                                <span class="skills__number">95%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p4"></div>
+                            </div>
+
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume_subtitle">Habilidades de <span class="subtitle__color">Código</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML/CSS</h4>
+                                <span class="skills__number">92%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p5"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">JavaScript</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p6"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">React</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p7"></div>
+                            </div>
+
+                            <article class="skills__title">
+                                <h4 class="skills__text">Node.js</h4>
+                                <span class="skills__number">45%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--p8"></div>
+                            </div>
+
+                        </div>
+                        <!-- BORRAR?? -->
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle resume__subtitle-know">Áreas de <span
+                                    class="subtitle__color">Conocimiento</span></h2>
+                        </header>
+
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">Desarrollo Web</li>
+                                <li class="knowledges__option">Diseño Web</li>
+                                <li class="knowledges__option">Edición de vídeo</li>
+                                <li class="knowledges__option">Motion Graphics</li>
+                                <li class="knowledges__option">SEO</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__certificates"></div>
+                <header class="resume__subheader">
+                    <h2 class="resume_subtitle">Certificados</h2>
+                </header>
+
+                <section class="certificates__container">
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img class="certificate__image" src="assets/img/certificado-1.png" alt="certificado_1">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">CSS3 Avanzado</h3>
+                            <span class="certificate__id">Verificación:
+                                <a href="https://www.udemy.com/certificate/UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc/"
+                                    target="_blank" rel="noopener noreferrer">
+                                    UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc
+                                </a>
+                            </span>
+
+                            <span class="certificate__date">04 Septiembre 2024</span>
+                        </div>
+                    </article>
+
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img class="certificate__image" src="assets/img/certificado-1.png" alt="certificado_1">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">CSS: Responsive</h3>
+                            <span class="certificate__id">Verificación:
+                                <a href="https://www.udemy.com/certificate/UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc/"
+                                    target="_blank" rel="noopener noreferrer">
+                                    UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc
+                                </a>
+                            </span>
+
+                            <span class="certificate__date">04 Septiembre 2024</span>
+                        </div>
+                    </article>
+
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img class="certificate__image" src="assets/img/certificado-1.png" alt="certificado_1">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">JavaScript</h3>
+                            <span class="certificate__id">Verificación:
+                                <a href="https://www.udemy.com/certificate/UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc/"
+                                    target="_blank" rel="noopener noreferrer">
+                                    UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc
+                                </a>
+                            </span>
+
+                            <span class="certificate__date">04 Septiembre 2024</span>
+                        </div>
+                    </article>
+
+                    <article class="certificates__certificate">
+                        <div class="certificate__logo">
+                            <img class="certificate__image" src="assets/img/certificado-1.png" alt="certificado_1">
+                        </div>
+
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">React y TypeScript</h3>
+                            <span class="certificate__id">Verificación:
+                                <a href="https://www.udemy.com/certificate/UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc/"
+                                    target="_blank" rel="noopener noreferrer">
+                                    UC-47ba69bf-f259-4cc3-8509-0e4be168e0cc
+                                </a>
+                            </span>
+
+                            <span class="certificate__date">04 Septiembre 2024</span>
+                        </div>
+                    </article>
+                </section>
+
+            </section>
+
+        </main>
+
+    </div>
+
+</body>
+
+</html>

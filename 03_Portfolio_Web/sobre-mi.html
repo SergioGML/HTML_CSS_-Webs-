@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/styless.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <title>Portafolio - Sergio García-Manzanares</title>
+</head>
+
+<body>
+
+    <!-- Layout Principal -->
+    <div class="layout">
+
+        <!-- Barra Lateral (info del usuario) -->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!-- Información general de usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/Sergio.jpeg" class="user-info__image" alt="Foto de Sergio Garcia" />
+                    </div>
+
+                    <h2 class="user-info__name">Sergio <br> Garcia-Manzanares</h2>
+                    <h4 class="user-info__job">Desarrollador Web</h4>
+                </div>
+
+                <!-- Menú navegación -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+
+                        <!-- <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li> -->
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- Links Redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="mailto:sergiogarciamanzanares@gmail.com" class="social__link">
+                                <i class="fa-solid fa-envelope  fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://github.com/SergioGML" class="social__link">
+                                <i class="fa-brands fa-github fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/sergio-garcia-manzanares/" class="social__link">
+                                <i class="fa-brands fa-linkedin fa-flip" style="--fa-animation-duration: 4s;"></i>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Botón del curriculum -->
+                <div class="user-info__buttons">
+                    <a href="assets/files/CV_Sergio_Garcia.pdf" class="user-info__btn" download>
+                        <i class="fa-solid fa-download fa-bounce" style="--fa-animation-duration: 2s;"></i>
+                        Descargar CV
+                    </a>
+                </div>
+
+                <!-- Pie de página -->
+                <footer class="user-info__footer"> &copy; 2024 Sergio Garcia-Manzanares</footer>
+
+            </section>
+
+        </aside>
+
+        <!-- Contenido Principal -->
+
+        <main class="layout__content">
+
+            <section class="content__page content__about">
+
+                <!-- ESTE CONTENIDO CAMBIA EN CADA WEB -->
+
+                <header class="about__header">
+                    <h2 class="about__title">Sobre <span class="title__color">Mi</span></h2>
+                </header>
+
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Graduado en Desarrollo de Aplicaciones Web y Comunicación Audiovisual con 8 años de
+                            experiencia en software como <span class="title__text">Adobe Premiere, After Effects o
+                                Photoshop</span>, así como sólidos conocimientos en tecnologías como <span
+                                class="title__text">JavaScript, HTML, CSS, TypeScript y
+                                React.</span> Esta combinación de habilidades me permite crear interfaces web
+                            atractivas, funcionales y optimizadas.
+                        </p>
+                    </article>
+
+                    <div class="personal-info__data">
+                        <ul class="personal-info__list">
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Edad:</span>
+                                <span class="personal-info__vale">33</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">País:</span>
+                                <span class="personal-info__vale">España</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Localidad:</span>
+                                <span class="personal-info__vale">Móstoles</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Correo:</span>
+                                <span class="personal-info__vale">Sergiogarciamanzanares@gmail.com</span>
+                            </li>
+
+                            <li class="personal-info__option">
+                                <span class="personal-info__title">Teléfono:</span>
+                                <span class="personal-info__vale">656.746.000</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+
+                <!-- Servicios que ofrezco -->
+                <section class="about__services">
+                    <header class="services__header">
+                        <h3 class="services__title">Mis <span class="title__color">Servicios</span>
+                        </h3>
+                    </header>
+
+                    <div class="services__container">
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-code"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Desarrollo Web</h4>
+                                <p class="service__description">
+                                    Desarrollo y diseño de páginas web, combinando mi experiencia con un enfoque en
+                                    interfaces atractivo, funcionales y optimizadas, siempre alineado con los
+                                    objetivos del cliente.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-film"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Edición de Vídeo</h4>
+                                <p class="service__description">
+                                    Amplia experiencia en la creación de todo tipo de piezas
+                                    audiovisuales. Utilizo software de alto nivel para garantizar
+                                    resultados de calidad, adaptados a las necesidades de cada proyecto.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-solid fa-cat"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Motion Graphics</h4>
+                                <p class="service__description">Cuento con más de 8 años de experiencia en la producción
+                                    de
+                                    piezas visuales dinámicas. Manejo avanzado de After Effects y otros
+                                    programas del paquete Adobe para ofrecer soluciones creativas que potencian la
+                                    narrativa visual de proyectos audiovisuales.
+                                </p>
+                            </div>
+                        </article>
+
+                        <article class="services__service">
+                            <div class="service__icon">
+                                <i class="service__real-icon fa-brands fa-youtube"></i>
+                            </div>
+
+                            <div class="service__content">
+                                <h4 class="service__title">Especialista en SEO</h4>
+                                <p class="service__description">Especialista en SEO con experiencia en la optimización
+                                    de canales de YouTube como <a href="https://www.youtube.com/@PlanBTC">Plan
+                                        BTC</a>, <a href="https://www.youtube.com/@burpee_vet">Burpee_vet</a> o <a
+                                        href="https://www.youtube.com/@LaCocinaDelPirata">La Cocina del Pirata</a>,
+                                    entre otros.
+                                    Aporto estrategias efectivas para mejorar el posicionamiento orgánico y maximizar el
+                                    alcance del contenido digital.
+                                </p>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </section>
+
+                <!-- Testimonios -->
+                <section class="about__reviews">
+                    <header class="reviews__header">
+                        <h3 class="reviews__title">Recomendaciones</h3>
+                    </header>
+
+                    <div class="reviews__container">
+                        <article class="reviews__review">
+
+                            <div class="review__img">
+                                <img src="assets/img/testimonio1.jpg" class="review__fullimg"
+                                    alt="cara de una persona" />
+                            </div>
+                            <div class="review__author">
+                                <div class="review_author-info">
+                                    <h4 class="review_name">Marina Ramírez Carrascosa</h4>
+                                    <h5 class="review__job">Directora de Marketing</h5>
+                                    <h6 class="review__company">Bq Educación</h6>
+                                </div>
+
+                                <div class="review_author-icon"></div>
+                                <i class="review__icon fa-solid fa-quote-right"></i>
+                            </div>
+
+                            <div class="review__description">
+                                <p class="review__text">He trabajado con Sergio durante 4 años y ha sido un placer.
+                                    Es un profesional comprometido y proactivo, encantado de aportar sugerencias y
+                                    nuevas propuestas que enriquezcan el briefing y la calidad del resultado es siempre
+                                    impecable. <br><br>Recomendaría a cualquier empresa contar con Sergio en base a mi
+                                    experiencia.</p>
+                            </div>
+                        </article>
+
+                        <article class="reviews__review">
+
+                            <div class="review__img">
+                                <img src="assets/img/testimonio2.jpg" class="review__fullimg"
+                                    alt="cara de una persona" />
+                            </div>
+
+                            <div class="review__description">
+                                <div class="review__author">
+                                    <div class="review_author-info">
+                                        <h4 class="review_name">Alberto Valero Gomez</h4>
+                                        <h5 class="review__job">Director General</h5>
+                                        <h6 class="review__company">BQ Educación</h6>
+                                    </div>
+
+                                    <div class="review_author-icon"></div>
+                                    <i class="review__icon fa-solid fa-quote-right"></i>
+                                </div>
+                                <p class="review__text">He tenido la oportunidad
+                                    de supervisar
+                                    el trabajo de Sergio y ha demostrado una profesionalidad excepcional y gran
+                                    dedicación a
+                                    sus tareas.
+                                    <br> La capacidad de aprendizaje de Sergio ha sido relevante, adaptándose con
+                                    facilidad a
+                                    nuevas tecnologías. Además ha sido un colega excepcional, mostrando disponibilidad para ayudar a
+                                    sus compañeros en cualquier situación y contribuyendo positivamente al trabajo en
+                                    equipo.</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+            </section>
+
+        </main>
+
+    </div>
+
+
+</body>
+
+</html>
